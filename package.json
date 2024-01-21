@@ -1,0 +1,26 @@
+{
+  "name": "@cuyo-proyects/shared-assets",
+  "version": "1.0.0",
+  "description": "cuyo proyects shared assets library",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NicoGonzalez6/cuyo-proyects-asset-ui"
+  },
+  "scripts": {
+    "build": "sh ./src/scripts/build-icons-font.sh",
+    "postinstall": "npm run build"
+  },
+  "svgtofont": {
+    "css": {
+      "fontSize": "24px"
+    }
+  },
+  "author": "Nicolas Gonzalez",
+  "license": "ISC",
+  "dependencies": {
+    "svgtofont": "^4.1.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

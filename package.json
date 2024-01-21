@@ -1,6 +1,6 @@
 {
   "name": "@cuyo-proyects/shared-assets",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "cuyo proyects shared assets library",
   "repository": {
     "type": "git",
@@ -8,8 +8,7 @@
   },
   "scripts": {
     "prebuild": "rm -rf dist",
-    "build": "sh src/scripts/build.sh",
-    "postinstall": "npm run build"
+    "build": "sh src/scripts/build.sh"
   },
   "author": "Nicolas Gonzalez",
   "license": "ISC",

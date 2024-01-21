@@ -21,7 +21,7 @@ To use this library you will need [Node.js](https://nodejs.org/en/download/) (wh
 # Inside your proyect run
 $ npm i @cuyo-proyects/shared-assets
 
-# You need to import the cc fonts into your index.css
+# You need to import the icon fonts into your index.css
 $ import "@cuyo-proyects/shared-assets/dist/icons/font/shared-assets.css";
 
 # You are good to go!

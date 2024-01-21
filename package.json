@@ -1,10 +1,10 @@
 {
   "name": "@cuyo-proyects/shared-assets",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "cuyo proyects shared assets library",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NicoGonzalez6/cuyo-proyects-asset-ui"
+    "url": "https://github.com/NicoGonzalez6/cuyo-proyects-shared-assets"
   },
   "scripts": {
     "build": "sh ./src/scripts/build-icons-font.sh",
